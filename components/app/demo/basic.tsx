@@ -6,7 +6,7 @@ const MyPage = () => {
   const { message, modal, notification } = App.useApp();
 
   const showMessage = () => {
-    message.success('Success!');
+    message.success('created!');
   };
 
   const showModal = () => {
